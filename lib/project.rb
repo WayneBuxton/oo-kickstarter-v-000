@@ -9,7 +9,7 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    self
+    self.new
     binding.pry
   end
 
